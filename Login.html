@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loge.css">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $(".box").slideUp(0).slideDown(1500);
+            });
+        </script>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="Home Page.html" class="ahome">Home</a></li>
+            <li><a href="News Page.html" class="anews">News</a></li>
+            <li><a href="Login.html" class="alogin">Login</a></li>
+            <li><a href="Registration.html" class="aregistration">Registration</a></li>
+            <li><a href="contact.html" class="acontact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="box">
+        <h2>Login</h2>
+        <form  action="/action_page.php" onsubmit="shiammmaa()">
+            <!--When you submit the form, a function is triggered which alerts some text.-->
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>Username</label>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="" required="">
+                <label>password</label>
+            </div>
+            <input type="submit" name="" value="submit">
+            <a href="Registration.html" style="margin-left: 100px;color:#03a9f4">Create an account</a>
+
+            </div>
+        </form>
+        <script>
+            function shiammmaa() {
+              alert("The form was submitted");
+            }
+        </script>
+    </div>
+</body>
+</html>

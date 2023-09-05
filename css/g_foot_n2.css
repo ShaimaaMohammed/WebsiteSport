@@ -1,0 +1,84 @@
+.header{
+    background: #6d6d6d;
+    width:over;
+    height:50px;
+    text-align: center;
+    font-size:17px;
+    margin-top:-10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px black;
+ }
+ .header a{
+    text-decoration: none;
+    color: white;
+ }
+ .header ul{
+    list-style: none;
+    padding-top: 13px;
+ }
+ .header li{
+    display: inline;
+    padding: 100px;
+ }
+ .header a:hover{
+    transition: 0.5s;
+    color: darkorange;
+    outline: none;
+ }
+ .header a:focus{
+    outline: none;
+ }
+.bo{
+    border: 1px solid black;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 130px;
+    background-color:skyblue;
+}
+.photo{
+    margin-left: 160px;
+    height: 400px;
+}
+.photo1{
+    margin-left: 160px;
+    height: 300px;
+}
+.one{
+    margin-left: 15px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.bor{
+    border-top:1px solid slategray;
+    width: 850px;
+    margin-left: 70px;
+
+}
+.copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 1px;
+    margin-top: 0px;
+}
+.social-icons {
+      display: block;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 75%;
+}  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+margin-left: 30px;
+  width:50px;
+  height:50px;
+}

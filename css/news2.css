@@ -1,0 +1,108 @@
+.header{
+    background: #6d6d6d;
+    width:over;
+    height:50px;
+    text-align: center;
+    font-size:17px;
+    margin-top:-10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px black;
+ }
+ .header a{
+    text-decoration: none;
+    color: white;
+ }
+ .header ul{
+    list-style: none;
+    padding-top: 13px;
+ }
+ .header li{
+    display: inline;
+    padding: 100px;
+ }
+ .header a:hover{
+    transition: 0.5s;
+    color: darkorange;
+    outline: none;
+ }
+ .header a:focus{
+    outline: none;
+ }
+ .bac{
+     background-image: url("../images/bas.jpg");
+     background-size: cover;
+     width: 1340px;
+     height: 2200px;
+ }
+ .video{
+     margin-left: 250px;
+     margin-top: 10px;
+     border:2px solid lightcoral;
+     width: 900px;
+ }
+ .par{
+    border: 1px solid #6d6d6d;
+    width: 900px;
+    margin-left: 250px;
+    color: cornsilk;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+ }
+ .ti{
+    color: goldenrod;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+ }
+ .pa{
+    color: cornsilk;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-right: 4px;
+ }
+ .pa2{
+    color: cornsilk;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 2px;
+
+ }
+ .copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -1px;
+    margin-top: 1px;
+ }
+ .social-icons {
+      display: block;
+      margin-left: 120px;
+      margin-right: auto;
+      width: 75%;
+ }  
+ .social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+ .social-icons li a {
+  border-bottom: none;
+  }
+ .social-icons li img {
+ margin-left: 30px;
+  width:50px;
+  height:50px;
+ }
+ 

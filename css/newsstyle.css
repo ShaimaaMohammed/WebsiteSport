@@ -1,0 +1,249 @@
+body{
+  background-image: url("../images/newsback.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Page Header */
+.header{
+    background: #6d6d6d;
+    width:1400px;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    margin-top:-10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px black;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header ul{
+    list-style: none;
+    padding-top: 13px;
+}
+.header li{
+    display: inline;
+    padding: 100px;
+}
+.header a:hover{
+    transition: 0.5s;
+    color: darkorange;
+    outline: none;
+}
+.header a:focus{
+    outline: none;
+}
+
+/* Global News Page Content */
+
+.globalnewsframenewspage{
+    width: 1015px;
+    margin-top: 170px;
+    margin-left: 130px;
+    height: 95px;
+    background: #7e796e;
+    border-radius: 20px;
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter Bold'), local('Bitter-Bold'), url('bitter-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+}
+.globalnewsframenewspage h2{
+    color:white;
+    margin-left:130px;
+    font-family: 'Bitter';
+
+}
+.globalnewsframenewspage div{
+    width:760px;
+    height:2px;
+    background:white;
+    margin-left:130px;
+    margin-top:-15px;
+}
+.globalnewsframenewspage img{
+    width:180px;
+    height:150px;
+    margin: -60px 0 0 -30px;
+    border-radius: 30px;
+}
+
+.footballnewspage{
+    text-decoration: none;
+    color:black;
+    background:#ffffff;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:15px;
+    margin-left:35px;
+    transition:0.3s;
+    font-weight: bold;
+}
+.footballnewspage:hover{
+    background:black;
+    color:white;
+}
+.basketballnewspage{
+    text-decoration: none;
+    color:black;
+    background:#ffffff;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:15px;
+    margin-left:180px;
+    transition:0.3s;
+        font-weight: bold;
+
+}
+.basketballnewspage:hover{
+    background:black;
+    color:white;
+}
+.tennisnewspage{
+    text-decoration: none;
+    color:black;
+    background:#ffffff;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:15px;
+    margin-left:350px;
+    transition:0.3s;
+        font-weight: bold;
+
+}
+.tennisnewspage:hover{
+    background:black;
+    color:white;
+}
+/* Local News Page Content */
+
+.localnewsframenewspage{
+    width: 1015px;
+    margin-top: 250px;
+    margin-left: 130px;
+    height: 95px;
+    background: #7e796e;
+    border-radius: 20px;
+}
+.localnewsframenewspage h2{
+    color:white;
+    margin-left:130px;
+        font-family: 'Bitter';
+
+}
+.localnewsframenewspage div{
+    width:760px;
+    height:2px;
+    background:white;
+    margin-left:130px;
+    margin-top:-15px;
+}
+.localnewsframenewspage img{
+    width:180px;
+    height:150px;
+    margin: -60px 0 0 -30px;
+    border-radius: 30px;
+}
+
+.localfootballnewspage{
+    text-decoration: none;
+    color:black;
+    background:#ffffff;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:15px;
+    margin-left:35px;
+    transition:0.3s;
+        font-weight: bold;
+
+}
+.localfootballnewspage:hover{
+    background:black;
+    color:white;
+}
+.localbasketballnewspage{
+    text-decoration: none;
+    color:black;
+    background:#ffffff;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:15px;
+    margin-left:180px;
+    transition:0.3s;
+        font-weight: bold;
+
+}
+.localbasketballnewspage:hover{
+    background:black;
+    color:white;
+}
+
+.localtennisnewspage{
+    text-decoration: none;
+    color:black;
+    background:#ffffff;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:15px;
+    margin-left:350px;
+    transition:0.3s;
+        font-weight: bold;
+
+}
+.localtennisnewspage:hover{
+    background:black;
+    color:white;
+}
+/* Footer */
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -100px;
+    margin-top: 350px;
+}
+.social-icons {
+      display: block;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 75%;
+}  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+margin-left: 30px;
+  width:50px;
+  height:50px;
+}

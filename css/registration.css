@@ -1,0 +1,169 @@
+body
+{
+	position: relative;
+	min-height: 100vh;
+	background:grey;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.header{
+    background: #6d6d6d;
+    position: absolute;
+    width:1150px;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    margin-top:-10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px black;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.header li{
+    display: inline;
+    padding: 70px;
+}
+.header a:hover{
+    transition: 0.5s;
+    color: darkorange;
+    outline: none;
+}
+.header a:focus{
+    outline: none;
+}
+.con
+{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	background: lightblue;
+	box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+	overflow: hidden;
+	margin-top: 100px;
+}
+.user
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.image
+{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	transition: 0.5s;
+}
+img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.form
+{
+	position: relative;
+	width: 50%;
+	height:100%;
+	background: lightgray;
+	align-items: center;
+	padding: 40px;
+	transition: 0.5s;
+}
+h2
+{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+	color: #555;
+}
+input
+{
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	background-color: white;
+	color: black;
+	border: none;
+	box-shadow: none;
+	margin: 8px 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 300; 
+}
+input [type="submit"]
+{
+	max-width: 100px;
+	background: #677eff;
+	color: lightblue;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+.sing
+{
+	position: relative;
+	margin-top: 20px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #555;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.sing a
+{
+	font-weight: 600;
+	text-decoration: none;
+	color: red; 
+}
+footer
+{
+	position: absolute;
+	width: 1400px;
+	
+}
+.copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 750px;
+}
+.social-icons {
+      display: block;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 75%;
+}  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+margin-left: 30px;
+  width:50px;
+  height:50px;
+}

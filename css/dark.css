@@ -1,0 +1,153 @@
+/* Local basketball */
+body
+{
+	background-size: cover;
+	background-image: url("../images/ball.jpg");
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+}
+/* Page Header */
+.header{
+
+    background: black;
+    width:1400px;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    margin-top:-10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px black;
+}
+.header a{
+    text-decoration: none;
+
+    color: white;
+}
+.header ul{
+    list-style: none;
+    padding-top: 13px;
+}
+.header li{
+    display: inline;
+    padding: 100px;
+}
+.header a:hover{
+    transition: 0.5s;
+    color: darkorange;
+    outline: none;
+}
+.header a:focus{
+    outline: none;
+}
+/* page */
+button
+{
+  margin:30px 420px;
+  display: inline;
+  margin-left: 150px;
+  margin: 10px 6px 3px 300px; 
+  border-radius: 20px ;
+  width: 70px;
+  height: 60px;
+}
+#dark
+{
+  background-color: black;
+  color: white;
+}
+#red
+{
+  background-color: red;
+  color: black;
+}
+#purple
+{
+  background-color: purple;
+  color: white;
+}
+.local
+{
+	font-family: bold;
+	color: black;
+}
+p
+{
+    font-size: 15px;
+    margin: 8px 10px 0px 10px;
+}
+.localbasketball
+{
+	text-align: center;
+	width: 500px;
+	height: 450px;
+	color: black;
+	border-style: double;
+	border-color: black;
+	border-radius: 100px;
+	margin:30px 420px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+h2
+{
+	margin: 20px 20px;
+}
+
+.img
+{
+	margin-right: 20px;
+	margin-left: 20PX;
+}
+#b
+{
+	width: 350px;
+	height:200px;
+}
+.more:link
+{
+  color: red;
+}
+
+.more:visited
+{
+  color: green;
+}
+
+.more:hover
+{
+  color: black;
+}
+/* Footer */
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -100px;
+    margin-top: 50px;
+}
+.social-icons {
+      display: block;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 75%;
+}  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+margin-left: 30px;
+  width:50px;
+  height:50px;
+}

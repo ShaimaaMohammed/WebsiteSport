@@ -1,0 +1,132 @@
+body
+{
+  background-color:black;
+}
+.header{
+    background: #6d6d6d;
+    width:over;
+    height:50px;
+    text-align: center;
+    font-size:17px;
+    margin-top:-10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px black;
+ }
+ .header a{
+    text-decoration: none;
+    color: white;
+ }
+ .header ul{
+    list-style: none;
+    padding-top: 13px;
+ }
+ .header li{
+    display: inline;
+    padding: 100px;
+ }
+ .header a:hover{
+    transition: 0.5s;
+    color: darkorange;
+    outline: none;
+ }
+ .header a:focus{
+    outline: none;
+ }
+  button
+{
+  margin:10px 10px 3px 410px;
+  display: inline;
+  border: 2px solid white;
+  width: 70px;
+  height: 60px;
+}
+#dark
+{
+  background-color: black;
+  color: white;
+}
+#light
+{
+  background-color: white;
+  color: black;
+}
+div.gallery {
+    border: 1px solid #ccc;
+    height: 430px;
+  /*  background-color: cornsilk;*/
+    background-color: black;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .copyright {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 1px;
+    margin-top: 600px;
+}
+.social-icons {
+      display: block;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 75%;
+}  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+margin-left: 30px;
+  width:50px;
+  height:50px;
+}

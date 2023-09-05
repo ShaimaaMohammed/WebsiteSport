@@ -1,0 +1,255 @@
+body{
+    
+    background-color: rgba(204,132,0,0.1);
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter Bold'), local('Bitter-Bold'), url('bitter-v15-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+.button1{
+    background-color: #228B22; 
+     border: none;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button2{
+    background-color: #CC8400; 
+     border: none;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+
+
+}
+.button3{
+    background-color:  #6d6d6d;
+     border: none;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+
+
+}
+/* Page Header */
+.header{
+    background: #CC8400;
+    width:1400px;
+    height:50px;
+    text-align: center;
+    font-size:20px;
+    margin-top:-10px;
+    border-radius: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header ul{
+    list-style: none;
+    padding-top: 13px;
+}
+.header li{
+    display: inline;
+    padding: 100px;
+}
+.header a:hover{
+    transition: 0.5s;
+    color: black;
+    outline: none;
+}
+.header a:focus{
+    outline: none;
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter Bold'), local('Bitter-Bold'), url('bitter-v15-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+.container{
+    background-color: white;
+      padding: 10px 20px;
+    margin-left: 80px;
+    margin-top: 35px;
+    width: 800px;
+    height: 1210px;
+}
+.title{
+    font-weight: 150%;
+    font-size: 160%;
+    font-family: 'Bitter';
+}
+.socialfb{
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: -35px;
+    width: 18%;
+    position: absolute;
+}
+.socialtwitter{
+        cursor: pointer;
+    margin-left: 420px;
+    margin-top: -40px;
+    margin-top: -25px;
+    width: 16%;
+    position: absolute;
+}
+.socialtumblr{
+        cursor: pointer;
+    margin-left: 630px;
+    margin-top: -20px;
+    width: 14%;
+    position: absolute;
+}
+
+.last{
+    font-family: 'Trebuchet MS', 'sans-serif';
+    font-weight: 900;
+    font-size: 14px;
+        margin-left: 8px;
+    margin-top: 35px;
+}
+.article{
+        font-family: 'Bitter';
+    font-weight: bold;
+    font-size:  17px;
+    
+}
+.related{
+        font-size: 200%;
+    color: #CC8400;
+    font-weight: bold;
+        font-family: 'Bitter',serif;
+        text-decoration: none;
+
+    border-bottom: 5px solid #B27300;
+    margin-left: 1030px;
+    margin-top: -1030px;
+    position: absolute;
+}
+.relatedcontainer1{
+        background-color: white;
+      padding: 10px 20px;
+    margin-left: 980px;
+    margin-top: -930px;
+    position: absolute;
+    width: 300px;
+    height: 320px;
+}
+.first
+{
+    color: black;
+    font-size: 135%;
+            font-family: 'Bitter',serif;
+      transition: 0.5s;
+
+
+}
+.first:hover{
+    color: #E59400;
+}
+.relatedcontainer2{
+           background-color: white;
+      padding: 10px 20px;
+    margin-left: 980px;
+    margin-top: -520px;
+    position: absolute;
+    width: 300px;
+    height: 320px;
+}
+.second
+{
+    color: black;
+    font-size: 135%;
+            font-family: 'Bitter',serif;
+      transition: 0.5s;
+
+
+}
+.second:hover{
+    color: #E59400;
+}
+.addcomment{
+        font-size: 135%;
+            font-family: 'Bitter',serif;
+    color: black;
+    margin-left: 80px;
+}
+.info{
+        margin-left: 80px;
+
+}
+.commentcontainer{
+    
+            background-color: white;
+      padding: 10px 20px;
+        width: 500px;
+    height: 250px;
+        margin-left: 80px;
+          border-radius: 25px;
+
+}
+#sent{
+    background-color: #E59400;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 80px;
+}
+#comment{
+            font-size: 100%;
+            font-family: 'Bitter',serif;
+    color: black;
+}
+/* Footer */
+footer{
+    margin-top: 50px;
+    margin-right: -100px;
+}
+.copyright {
+    margin-left: 480px;
+    font-size: 14px;
+    color: black;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social-icons {
+      display: block;
+  margin-left: -15px;
+  margin-right: auto;
+  width: 75%;
+}  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+margin-left: 30px;
+  width:50px;
+  height:50px;
+}
+hr{
+    color: black;
+        border-bottom: 2px solid black;
+
+}
